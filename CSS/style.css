@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: blue;
+    height: 925px;
+}
+.top {
+    display: flex;
+}
+.box {
+    display: flex;
+    margin-left: 93px;
+    margin-top: 102px;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.left {
+    margin-left: 93px;
+    margin-top: 30px;
+    margin-right: 180px;
+}
+.right {
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+.center {
+    color: #FFF;
+    font-size: 17px;
+    opacity: 0.8;
+    margin-top: 40px;
+    gap: 25px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    gap: 25px;
+}
+.right button{
+    border-radius: 10px;
+background: #AC1216;
+width: 170px;
+height: 40px;
+color: white;
+}
+.item h1 {
+    width: 848px;
+}
+.first {
+    color: #E11D2E;
+    font-family: SF Pro Display;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90px;   
+}
+.second {
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: 90px;
+}
+.item a {
+    margin-top: 5px;
+    width: 848px;
+color: #71768E;
+font-family: SF Pro Display;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.item h4 {
+    width: 700px;
+color: #A0A3B5;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+margin-bottom: 46px;
+}
+.red {
+    width: 295px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E11D2E;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 25px;
+}
+.grey {
+    width: 379px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(126, 72, 72, 0.05);
+width: 319px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.9;
+}
+.code {
+    margin-top: 20px;
+    width: 699px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(126, 72, 72, 0.05);
+border: 1px solid rgba(255, 255, 255, 0.09);
+width: 634px;
+color: rgba(255, 255, 255, 0.40);
+font-family: SF Pro Display;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cat {
+    margin-top: 35px;
+    margin-right: 199px;
+}
+.brown {
+    margin-top: 129px;
+    color: rgba(255, 245, 0, 0.60);
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    width: 1920px;
+    height: 38px;
+    flex-shrink: 0;
+    background: #5A4039;
+    font-weight: normal;
+    padding: 11px;
+    gap: 8px;
+}
+.footer {
+    background-color: blue;
+    text-align: center;
+    height: 971px;
+    padding: 60px;
+
+}
+.footer h1 {
+    margin: 0 500px;
+    margin-bottom: 110px;
+    width: 782px;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.social a{
+    margin-right: 40px;
+    padding-top: 110px;
+}
+.logotip img {
+    margin-top: 168px;
+    width: 255.999px;
+height: 217.304px;
+flex-shrink: 0;
+}
+.bottom p {
+    width: 799px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.4;
+}
+.bottom {
+    padding: 40px 560px;
+    width: 1920px;
+height: 104px;
+flex-shrink: 0;
+background: #0D1428;
+}
+.main_1 {
+    height: 856px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+.social_1 {
+    margin: 0px 470px;
+    gap: 10px;
+    display: flex;
+    width: 156.25px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: url(<path-to-image>), lightgray 0px -13.75px / 100% 156.25% no-repeat;
+}
+.main_1 button {
+    margin-top: 142px;
+    display: inline-flex;
+padding: 10px 45px 15px 45px;
+justify-content: center;
+align-items: center;
+gap: 15px;
+border-radius: 10px;
+background: #E11D2E;
+width: 125px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+opacity: 0.9;
+height: 77px;
+width: 215px;
+}
+.main_1 p {
+    margin: 33px 690px 70px;
+    width: 552px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.picture img {
+    margin-top: 144px;
+    width: 193.5px;
+height: 164.347px;
+flex-shrink: 0;
+}
